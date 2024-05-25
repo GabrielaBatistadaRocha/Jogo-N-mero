@@ -1,0 +1,33 @@
+table {
+    border-radius: 8px;
+    border-color: blueviolet;
+    border-style: groove;
+    background-color: rgba(153, 51, 153,0.3);
+}
+
+form,
+label {
+    display: block;
+    padding: 10px;
+}
+
+tr, td{
+    border:0px;
+}
+
+form {
+    width: 300px;
+    margin: 10px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+label {
+    color: black;
+    text-align: right;
+}
+
+input {
+    display: inline-block;
+    padding-left: 10px;
+    border-radius: 8px;
+}

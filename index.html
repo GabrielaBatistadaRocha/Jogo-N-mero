@@ -1,0 +1,39 @@
+<html>
+
+<head>
+    <title>Jogo de Advinhar Números</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <center>
+        <table border="16">
+            <tr>
+                <td>
+                    <h1>Jogo de advinhar números</h1>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <form>
+                        <label>
+                            Digite um número entre 1 e 100:
+                            <input size="3" type="text" id="x" autofocus>
+                        </label>
+                        <label>
+                            Número de tentativas:
+                            <input size="3" type="text" id="t" autofocus readonly disabled>
+                        </label>
+                        <br>
+                        <label>
+                            <input id="inputform" type="button" placeholder="Jogar" value="" onclick="testejogo()">
+                            <input type="button" value="Novo Número" onclick="geranumero()">
+                        </label>
+                </td>
+            </tr>
+    </center>
+    <script src="teste.js"></script>
+</body>
+
+</html>
