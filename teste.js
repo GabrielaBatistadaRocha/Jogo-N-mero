@@ -25,7 +25,6 @@ function testejogo()
  {
     alert('Você digitou um número menor!');
     document.getElementById('t').value=vezesjogadas;
-
  }
 
  else if (numeroSecreto == chute)
